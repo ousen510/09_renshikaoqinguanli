@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Person - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.LUI\LOCALS~1\Temp\RSP42.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Person.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\全程实录（改版）\VC项目开发全程实录程序\12\人事考勤管理系统\Person\UserManage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.LUI\LOCALS~1\Temp\RSP42.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.LUI\LOCALS~1\Temp\RSP43.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Person.pdb" /debug /machine:I386 /out:"Debug/Person.exe" /pdbtype:sept 
+".\Debug\ADO.obj"
+".\Debug\CheckEdit.obj"
+".\Debug\CheckManage.obj"
+".\Debug\CheckSum.obj"
+".\Debug\DeptEdit.obj"
+".\Debug\DeptManage.obj"
+".\Debug\LoginDialog.obj"
+".\Debug\PassWordEdit.obj"
+".\Debug\Person.obj"
+".\Debug\PersonDlg.obj"
+".\Debug\PersonEdit.obj"
+".\Debug\PersonManage.obj"
+".\Debug\StdAfx.obj"
+".\Debug\UserEdit.obj"
+".\Debug\UserManage.obj"
+".\Debug\Person.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.LUI\LOCALS~1\Temp\RSP43.tmp"
+<h3>Output Window</h3>
+Compiling...
+UserManage.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1.LUI\LOCALS~1\Temp\RSP44.tmp" with contents
+[
+/nologo /o"Debug/Person.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\ADO.sbr"
+".\Debug\CheckEdit.sbr"
+".\Debug\CheckManage.sbr"
+".\Debug\CheckSum.sbr"
+".\Debug\DeptEdit.sbr"
+".\Debug\DeptManage.sbr"
+".\Debug\LoginDialog.sbr"
+".\Debug\PassWordEdit.sbr"
+".\Debug\Person.sbr"
+".\Debug\PersonDlg.sbr"
+".\Debug\PersonEdit.sbr"
+".\Debug\PersonManage.sbr"
+".\Debug\UserEdit.sbr"
+".\Debug\UserManage.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1.LUI\LOCALS~1\Temp\RSP44.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Person.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
